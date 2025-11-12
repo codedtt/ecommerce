@@ -61,7 +61,8 @@ The API is divided into two primary services: Client (Checkout) and Admin.
 ## Base URL
 http://localhost:3000/api/v1
 
-1. Client Endpoint
+1. Client Endpoint:
+   
    <img width="870" height="105" alt="image" src="https://github.com/user-attachments/assets/3aa18464-ccd3-405b-a0e4-d36a81773eb2" />
 
 
@@ -76,7 +77,8 @@ Request Body (Example)
 }
 ```
 
-2. Admin Endpoints
+2. Admin Endpoints:
+
 <img width="878" height="207" alt="image" src="https://github.com/user-attachments/assets/35d8b1e3-c14b-4260-aa97-446c4e052d41" />
 
 
