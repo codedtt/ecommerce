@@ -29,7 +29,7 @@ ts-node,Runs TypeScript files directly during development
 ## Steps:
 1. Clone the Repository:
 ```bash
-git clone [Your Repository URL]
+git clone https://github.com/codedtt/ecommerce.git
 cd ecommerce
 ```
 
