@@ -27,8 +27,6 @@ router.post('/checkout', (req: Request, res: Response) => {
         // Place the order using the service logic
         const newOrder = OrderService.placeOrder(items, couponCode || null);
 
-        // ... (rest of the response logic is unchanged)
-
         res.status(201).json({ 
             message: 'Order successfully placed.',
             order: {

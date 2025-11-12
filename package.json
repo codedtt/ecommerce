@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/app.ts",
-    "dev": "ts-node src/app.ts",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "test:watch": "npm run test -- --watch"
+    "dev": "node --loader ts-node/esm src/app.ts",
+    "start": "node --loader ts-node/esm src/app.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,11 +16,8 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.5",
-    "@types/jest": "^30.0.0",
     "@types/node": "^24.10.0",
     "@types/uuid": "^11.0.0",
-    "jest": "^30.2.0",
-    "ts-jest": "^29.4.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },

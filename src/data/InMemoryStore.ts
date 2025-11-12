@@ -9,10 +9,9 @@ export const products: Product[] = [
 ];
 
 // --- 2. Orders (Transaction History) ---
-export const orders: Order[] = []; // Arrays can still be modified via push/splice
+export const orders: Order[] = [];
 
 // --- 3. Discount Codes (The n-th order feature) ---
-// EXPORT A CONTAINER OBJECT INSTEAD OF THE VARIABLE ITSELF
 export const discountCodeStore: { code: DiscountCode | null } = {
     code: null,
 };

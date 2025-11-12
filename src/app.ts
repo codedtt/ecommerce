@@ -1,5 +1,5 @@
 // src/app.ts (FINAL VERSION)
-import express, { Request, Response } from 'express';
+import express, { type Request, type Response } from 'express';
 import * as dotenv from 'dotenv';
 // Load environment variables from .env file
 dotenv.config(); 

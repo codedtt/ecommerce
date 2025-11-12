@@ -1,12 +1,12 @@
 // src/services/DiscountService.ts
 import * as dotenv from 'dotenv';
-import { discountCodeStore, orders } from '../data/InMemoryStore.js'; // Import runtime value (container object)
+import { discountCodeStore } from '../data/InMemoryStore.js';
 import type { DiscountCode, Order } from '../models/DataModels.js';    // Import types
 import { v4 as uuidv4 } from 'uuid';
 
 dotenv.config();
 
-const N = parseInt(process.env.NTH_ORDER_TRIGGER || '5', 10);
+const N = parseInt(process.env.NTH_ORDER_TRIGGER || '5', 10); 
 const DISCOUNT_PERCENTAGE = parseFloat(process.env.DISCOUNT_PERCENTAGE || '10');
 
 /**
