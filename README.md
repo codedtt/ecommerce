@@ -1,5 +1,5 @@
-🛒 E-commerce Nth Order Discount System
-This project is a back-end service simulating a simplified e-commerce checkout and admin system. Its core feature is a single-use coupon generation system that triggers after every $N$th placed order.
+## 🛒 E-commerce Nth Order Discount System
+This project is a back-end service simulating a simplified e-commerce checkout and admin system. Its core feature is a single-use coupon generation system that triggers after every Nth placed order.
 
 ## ✨ Features
 * Cart Calculation: Calculates the subtotal of a cart based on static product prices.
