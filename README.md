@@ -1,4 +1,4 @@
-<img width="870" height="105" alt="image" src="https://github.com/user-attachments/assets/3f8a0412-6362-4e5a-afef-f5debfc95198" /># 🛒 E-commerce Nth Order Discount System
+#🛒 E-commerce Nth Order Discount System
 This project is a back-end service simulating a simplified e-commerce checkout and admin system. Its core feature is a single-use coupon generation system that triggers after every $N$th placed order.
 
 ## ✨ Features
